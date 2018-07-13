@@ -64,7 +64,7 @@
 
 		$("#buttonClear").click(function(){
 			$("#textarea").val();
-			$("#input").val();
+			$("#input").val("");
 			
 		});
 
