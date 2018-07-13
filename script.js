@@ -63,9 +63,8 @@
 		});
 
 		$("#buttonClear").click(function(){
-			$("#textarea").val("");
-			$("#input").val("");
-			
+		
+			location.reload();
 		});
 
 });
