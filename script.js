@@ -64,7 +64,7 @@
 
 		$("#buttonClear").click(function(){
 		
-			location.reload();
+			location.reload(true);
 		});
 
 });
