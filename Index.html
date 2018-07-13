@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Resume Searcher</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script type="text/javascript" src="bootbox.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="jquery.highlighttextarea.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="site.css">
+	<link rel="stylesheet" type="text/css" href="jquery.highlighttextarea.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-brand">
+			Resume Skill Finder		
+		</div>
+	</div>
+	<div class="container">
+			<div>
+				<h2>Paste the resume content in the below box</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm-8">
+					<textarea id="textarea" rows="40" cols="50" 
+								autofocus="autofocus" class="form-control">
+					</textarea>
+				</div>
+				<div class="col-sm-4" id="mainBody"	>
+					<h3>Enter the skills:</h3>
+					<input type="text" id="input" placeholder="e.g J2EE, Java, HTML, CSS"> 
+					<button id="buttonDisplay">Search</button>
+					<button id="buttonClear">Clear</button>
+					<hr>
+				</div>
+			</div>
+
+	</div>
+				
+		<div class="footer navbar-fixed-bottom">@Created by Manash</div>
+</body>
+</html>

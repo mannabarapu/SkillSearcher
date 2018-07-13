@@ -1,0 +1,71 @@
+body{
+	margin-top: 40px;
+	
+	background-color: whitesmoke;
+}
+
+textarea.form-control {
+    height: 650px;
+    width: 739px;
+    text-align: left;
+    font-size: 15px;
+}
+
+/*.ControlBody{
+	padding-top: 15px;
+	border: 1px solid black;
+
+}*/
+
+input {
+    line-height: normal;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 15px;
+}
+
+button {
+    text-transform: none;
+    background-color: steelblue;
+    font-size: 18px;
+    padding: 3px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+/*textStyle{
+
+	padding: 5px;
+
+}*/
+p{
+	font-size: 17px;
+}
+span{
+font-size: 17px;
+font-weight: 200;	
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Ubuntu;
+}
+
+.navbar-fixed-bottom {
+    bottom: 0;
+    margin-bottom: 0;
+    border-width: 1px 0 0;
+    /* font-style: oblique; */
+    font-family: inherit;
+    background-color: lightsteelblue;
+    text-align: right;
+}
+
+.navbar {
+    
+    min-height: 30px;
+    margin-bottom: 20px;
+    background-color: lightsteelblue;
+    border: 1px solid transparent;
+}
