@@ -6,7 +6,7 @@
   		size: "small",
   		title: "<b>Welcome User</b>",
   		message: " You can perform a <b>single search</b> at once." +
-			"In order to perform a second search you have to <b>reload</b> the page.", 
+			"In order to perform a second search you have to <b>reload</b> the page by clicking <label>Clear</label>.", 
  		});
 
 		$("#buttonDisplay").click(function(){
