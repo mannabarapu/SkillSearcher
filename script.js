@@ -63,8 +63,8 @@
 		});
 
 		$("#buttonClear").click(function(){
-			//alert("Ready to clear");
-			location.reload();
+			$("#textarea").val();
+			$("#input").val();
 			
 		});
 
