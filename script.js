@@ -63,7 +63,7 @@
 		});
 
 		$("#buttonClear").click(function(){
-			$("#textarea").val();
+			$("#textarea").val("");
 			$("#input").val("");
 			
 		});
